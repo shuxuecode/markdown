@@ -1,7 +1,8 @@
 spring:
   profiles:
 #    active: dev
-    active: pro
+    active: local
+#    active: pro
 
 
   # 上传文件大小限制

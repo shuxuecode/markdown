@@ -1,5 +1,6 @@
 target/
-!.mvn/wrapper/maven-wrapper.jar
+.mvn
+#!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
 
@@ -30,5 +31,4 @@ build/
 .vscode/
 
 ### 自定义
-application-dev.yml
-application-pro.yml
+application-*.yml
